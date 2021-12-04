@@ -6133,7 +6133,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #FFFFE9 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6144,6 +6144,10 @@ button.bg-light:focus {
 
 .bg-dark {
   background-color: #343a40 !important;
+}
+
+.bg-lime{
+  background-color: #c3e6cb !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10244,4 +10248,22 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.img-low-size {
+  width: 20%;
+  height: auto;
+}
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-right{
+  float: right;
+}
+
+tr-inbrder {
+  border: 1px solid white;
+  border-collapse: collapse;
 }
